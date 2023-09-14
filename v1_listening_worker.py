@@ -1,4 +1,7 @@
 """
+Course: 44-671 : Module 04
+Student: Erin Swan-Siegel
+Date: 09-09-2023
 
 Listens for task messages on the queue.
 This process runs continously. 

@@ -1,4 +1,8 @@
 """
+Course: 44-671 : Module 04
+Student: Erin Swan-Siegel
+Date: 09-09-2023
+
     This program sends a message to a queue on the RabbitMQ server.
     Make tasks harder/longer-running by adding dots at the end of the message.
 

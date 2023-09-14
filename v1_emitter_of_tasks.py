@@ -1,4 +1,7 @@
 """
+Course: 44-671 : Module 04
+Student: Erin Swan-Siegel
+Date: 09-09-2023
 
 Creates and sends a task message to the queue each execution.
 This process runs and finishes. 

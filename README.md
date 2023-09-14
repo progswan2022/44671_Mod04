@@ -4,7 +4,18 @@
 
 One process will create task messages. Multiple worker processes will share the work. 
 
+- Course: 44-671 : Module 04
+- Student: Erin Swan-Siegel
+- Date: 09-09-2023
 
+## Additional features over starter repo
+    1. True / False variable for prompting the user for the use of the queue monitoring
+    2. True / False variable for prompting the user whether they'd like to read in data from a file
+    3. Prompting the user to indicate whether their file has a header or not
+    4. Prompting the user for a file name
+    5. Using the user input to access their desired input file and read or skip the first record of the file
+
+# Instructions
 ## Before You Begin
 
 1. Fork this starter repo into your GitHub.
@@ -58,3 +69,4 @@ Which worker gets which tasks?
 ## Screenshot
 
 See a running example with at least 3 concurrent process windows here:
+![Erin's PC](Module04_2_screenshot.png)
