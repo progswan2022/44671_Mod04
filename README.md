@@ -14,6 +14,7 @@ One process will create task messages. Multiple worker processes will share the 
     3. Prompting the user to indicate whether their file has a header or not
     4. Prompting the user for a file name
     5. Using the user input to access their desired input file and read or skip the first record of the file
+    6. Changing the queue name to "Module04"
 
 # Instructions
 ## Before You Begin
