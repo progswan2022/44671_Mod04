@@ -30,7 +30,7 @@ def callback(ch, method, properties, body):
 
 
 # define a main function to run the program
-def main(hn: str = "localhost", qn: str = "task_queue"):
+def main(hn: str = "localhost", qn: str = "Module04"):
     """ Continuously listen for task messages on a named queue."""
 
     # when a statement can go wrong, use a try-except block
@@ -56,7 +56,7 @@ def main(hn: str = "localhost", qn: str = "task_queue"):
         # a durable queue will survive a RabbitMQ server restart
         # and help ensure messages are processed in order
         # messages will not be deleted until the consumer acknowledges
-        channel.queue_declare(queue="Module04", durable=True)
+        channel.queue_declare(queue=qn, durable=True)
 
         # The QoS level controls the # of messages
         # that can be in-flight (unacknowledged by the consumer)
